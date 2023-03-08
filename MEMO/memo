@@ -1,0 +1,5 @@
+’use strict’;
+新しいjavascriptを実行するモードにする
+
+<script src="ファイル名"></script>
+htmlファイルに別ファイルのjavascriptプログラムを読み込ませる
