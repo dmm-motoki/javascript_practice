@@ -10,6 +10,12 @@
     <script>
       'use strict';
       console.log('よく柿食う客だ');
+      // trueが返された場合if、falseの場合elseが処理される
+      if(window.confirm('確認ダイアログが表示されましたか？'))  {
+        console.log('成功です');
+      } else {                       
+        console.log('失敗です'); // falseの時にすることがなければelse以降は省略可能
+      }
     </script>
   </body>
 </html>
