@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice</title>
+  </head>
+  <body>
+    <script>
+      'use strict';
+      /*
+      promptメソッドは()内のテキストなどとユーザーが
+      テキストを入力できるフォームを同時に表示できる。
+      入力したものはOKを押したときのみリターンとして返ってくる。
+      */
+      let answer = window.prompt('ヘルプをみますか？');
+      //let answerでanswerという変数を定義している。
+      console.log(answer);
+      answer = 'no';
+      console.log(answer);
+
+
+      const answer2 = window.prompt('ヘルプをみますか？');
+      /*
+      const でanswer2という定数を定義している
+      定数を書き換えようとするとエラーが出る
+      */
+      if(answer2 === 'yes') {
+        window.alert('タップでジャンプ、障害物をよけます。');
+      } else if(answer2 === 'no') {
+        window.alert('ゲーム起動中...');
+      } else {
+        window.alert('yesかnoでお答えください');
+      }
+    </script>
+  </body>
+</html>
