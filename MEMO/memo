@@ -12,3 +12,5 @@
 htmlファイルに別ファイルのjavascriptプログラムを読み込ませる
 
 window.confirm('テキスト');
+
+document.getElementById('id名')
